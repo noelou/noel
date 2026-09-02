@@ -1,0 +1,20 @@
+{
+  "name": "noel-resume",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Personal resume site for Noelou Jan Nagac",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "sharp": "^0.35.4",
+    "vite": "^8.2.2"
+  }
+}
