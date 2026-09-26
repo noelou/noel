@@ -116,17 +116,17 @@ export const projects = [
   {
     name: 'CGY Ballers',
     kind: 'Personal',
-    stack: ['React', 'HTML', 'CSS', 'JavaScript'],
+    stack: ['Vue', 'HTML', 'CSS', 'JavaScript'],
     summary:
       'Responsive basketball league website presenting teams, players, game info, standings, and league content in a user-friendly interface.',
     points: [
-      'Built reusable React components for each section and page.',
+      'Built reusable Vue components for each section and page.',
       'Structured and organised content data for use in the app.',
       'Implemented responsive layouts with HTML, CSS, and JavaScript.',
       'Used Claude for code exploration, debugging, and implementation.',
       'Deployed on Netlify.',
     ],
-    url: 'https://cgyballers.netlify.app',
+    url: 'https://cgyballers.gacs.me',
   },
   {
     name: 'Wedding RSVP',
@@ -152,7 +152,7 @@ export const skills = [
   },
   {
     group: 'Frameworks',
-    items: ['Vue.js', 'React'],
+    items: ['Vue.js'],
   },
   {
     group: 'Craft',
