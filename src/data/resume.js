@@ -141,7 +141,7 @@ export const projects = [
       'Applied semantic HTML and accessibility best practices.',
       'Deployed for production use.',
     ],
-    url: 'https://wedding.gacs.me/',
+    url: 'https://nagacs-wedding.netlify.app/',
   },
 ]
 
