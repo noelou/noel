@@ -116,15 +116,15 @@ export const projects = [
   {
     name: 'CGY Ballers',
     kind: 'Personal',
-    stack: ['Vue', 'HTML', 'CSS', 'JavaScript'],
+    stack: ['Vue', 'Node.js', 'Express', 'PostgreSQL', 'Nginx', 'DigitalOcean'],
     summary:
-      'Responsive basketball league website presenting teams, players, game info, standings, and league content in a user-friendly interface.',
+      'Full-stack basketball league website with live stats, standings, box scores, a playoff bracket, and an admin dashboard for running the league.',
     points: [
-      'Built reusable Vue components for each section and page.',
-      'Structured and organised content data for use in the app.',
-      'Implemented responsive layouts with HTML, CSS, and JavaScript.',
-      'Used Claude for code exploration, debugging, and implementation.',
-      'Deployed on Netlify.',
+      'Built a Vue 3 single-page app with pages for the schedule, standings, teams, player profiles, game box scores, and a playoff bracket.',
+      'Created a REST API with Node.js/Express and PostgreSQL. Player stats and standings are calculated live from entered box scores instead of being stored by hand.',
+      'Added an admin dashboard with database-backed session login (hashed passwords) for managing teams, players, game schedules, and box scores.',
+      'Deployed on a DigitalOcean server behind Nginx, with nightly database and upload backups, a firewall, a sitemap, per-page SEO tags, and privacy-friendly analytics.',
+      'Developed with Claude Code (AI-assisted). I planned the features, reviewed and tested every change, and walked through the code file by file to understand the architecture.',
     ],
     url: 'https://cgyballers.gacs.me',
   },
@@ -162,6 +162,10 @@ export const skills = [
       'JSON / Data Structuring',
       'Reusable Components & Templates',
     ],
+  },
+  {
+    group: 'Back-End & Hosting (Beginner)',
+    items: ['Node.js / Express', 'PostgreSQL', 'REST APIs', 'Nginx', 'DigitalOcean'],
   },
   {
     group: 'Workflow',
